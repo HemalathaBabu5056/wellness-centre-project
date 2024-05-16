@@ -227,3 +227,10 @@ font-size: 12px;
   padding: 250px;
   position: relative;
 }
+.story-img{
+  background-image: url(/pageImages/story-banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 250px;
+  position: relative;
+}
