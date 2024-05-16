@@ -12,7 +12,7 @@ body{
 .nav-link:hover{
   background-color: rgba(90, 90, 90, 0.396);
 }
-.dropdown-menu{
+/* .dropdown-menu{
   background-color:#864b24f6 !important;
 }
 
@@ -22,7 +22,7 @@ body{
 .dropdown-item:hover{
   text-decoration: underline;
   background-color: rgba(115, 113, 113, 0.223) !important;
-}
+} */
 .banner{
   background-image: url(/pageImages/WhatsNewimage.jpg);
   background-size: cover;
@@ -52,7 +52,7 @@ margin: auto;
 }
 
 }
-.title-nav .title-link {
+/* .title-nav .title-link {
   position: relative;
   transition: all 0.1s;
 }
@@ -73,17 +73,17 @@ margin: auto;
 .title-nav .title-link:hover::before {
   visibility: visible;
   transform: scaleX(1);
-}
+} */
 
 @media screen and (max-width: 425px) {
-  .title-nav {
+  /* .title-nav {
     flex-direction: column !important; 
     align-items: center; 
     text-align: center; 
   }
   .title-nav .sub-list {
     margin-bottom: 10px; 
-  }
+  } */
 }
 .special-heading{
   color: #864b24f6 ;
