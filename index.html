@@ -42,7 +42,6 @@
          <li class="nav-item">
           <a class="nav-link text-white" href="our_story.html">OUR STORY</a>
         </li>
-      
       </ul>
     </div>
   </div>
@@ -64,30 +63,54 @@
     </div>
   </div>
 </section>
-<!-- below banner section -->
+<!-- form section -->
 
 <section>
   <div class="container-fluid bg-success-subtle ">
     <div class="row">
       <div class="col-md-12">
 
-<form class="row g-5 justify-content-center pt-4">
+<form name="submit-to-google-sheet" class="row g-5 justify-content-center pt-4">
+
+  <!--  <div class="contact-right">
+              <form name="submit-to-google-sheet">
+                <input
+                  type="text"
+                  name="Name"
+                  placeholder="Your Name"
+                  required
+                />
+                <input
+                  type="email"
+                  name="Email"
+                  placeholder="Your Email"
+                  required
+                />
+                <textarea
+                  name="Message"
+                  rows="6"
+                  placeholder="Your Message"
+                ></textarea>
+                <button type="submit" class="down-btn1">Submit</button>
+              </form>
+              <span id="msg"></span>
+            </div> -->
 
   <div class="col-auto">
 <label for="exampleFormControlInput1" class="form-label">Name</label>
-  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+  <input type="text"  name="Name" class="form-control" id="exampleFormControlInput1" placeholder="Your Name"  required/>
   </div>
   <div class="col-auto">
     <label for="exampleFormControlInput1" class="form-label">Email address</label>
-  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+  <input type="email" name="Email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required/>
   </div>
   <div class="col-auto">
     <label for="exampleFormControlInput1" class="form-label">Phone Number</label>
-  <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="xxxxx xxxxx">
+  <input type="number" name="phoneNumber" class="form-control" id="exampleFormControlInput1" placeholder="xxxxx xxxxx" required/>
   </div>
   <div class="col-auto">
     <label for="exampleFormControlInput1" class="form-label">City</label>
-  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="chennai">
+  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="chennai" required/>
   </div>
 
    <div class="col-auto py-4 ">
