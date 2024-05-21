@@ -17,7 +17,7 @@ body{
   background-image: url(/pageImages/WhatsNewimage.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 250px;
+  padding: 300px;
   position: relative;
 }
 .overlay{
@@ -143,7 +143,7 @@ font-size: 12px;
     background-image: url(/pageImages/exercise\ class.jpg);
      background-size: cover;
   background-repeat: no-repeat;
-  padding: 250px;
+  padding: 300px;
   position: relative;
   }
   .wellness-bg{
@@ -164,34 +164,34 @@ font-size: 12px;
   background-image: url(/pageImages/CenterBanner.jpg);
    background-size: cover;
   background-repeat: no-repeat;
-  padding: 250px;
+  padding: 300px;
   position: relative;
 }
 .index-img{
   background-image: url(/pageImages/index-banner.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 250px;
+  padding: 300px;
   position: relative;
 }
-.index-img{
+/* .index-img{
   background-image: url(/pageImages/index-banner.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 250px;
   position: relative;
-}
+} */
 .villa{
   background-image: url(/pageImages/index-img-3.webp);
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 250px;
+  padding: 300px;
   position: relative;
 }
 .story-img{
   background-image: url(/pageImages/story-banner.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 250px;
+  padding: 300px;
   position: relative;
 }
