@@ -174,13 +174,6 @@ font-size: 12px;
   padding: 300px;
   position: relative;
 }
-/* .index-img{
-  background-image: url(/pageImages/index-banner.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding: 250px;
-  position: relative;
-} */
 .villa{
   background-image: url(/pageImages/index-img-3.webp);
   background-size: cover;
@@ -190,6 +183,13 @@ font-size: 12px;
 }
 .story-img{
   background-image: url(/pageImages/story-banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 300px;
+  position: relative;
+}
+.cuisine-img{
+  background-image: url(/pageImages/cuisine-banner.webp);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 300px;
